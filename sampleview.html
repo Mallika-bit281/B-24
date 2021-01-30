@@ -7,16 +7,35 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>Hello, world!</title>
     <style>
-        .carousel-indicators li{
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
+        .item{
+            height: 50px;
+            width: 250px;
+            margin: 5px;
+        }
+        .btn{
+            border-width:4px;
+        }
+        .img{
+            background-image: url("images/m5.jpg"),url("images/m2.jpg");
+            background-position:left,right; 
+            background-size: 400px;
+            background-repeat: no-repeat;
+            margin-left:500px;
+            /* width: 400px; */
+            /* height: 300px; */
+        }
+        .m2{
+            background: url("images/m5.jpg");
+            background-position: left;
+            background-size: 900px,600px;
+            background-repeat: no-repeat;
         }
     </style>
   </head>
-  <body>
+  <body class="bg-dark">
     <nav class="navbar-expand-sm navbar-light bg-warning" >
         <button class="navbar-toggler" type="button" dat-toggle="collapse" data-target="#b23" >
             <span  class="navbar-toggler-icon"></span>
@@ -28,13 +47,13 @@
           <a  class="nav-link" href="Index.html">Home</a>
       </li>
       <li class="nav-item" >
-          <a class="nav-link" href="AboutUs.html">Aboutus</a>
+          <a class="nav-link" href="Aboutus.html">Aboutus</a>
       </li>
       <li class="nav-item" >
-          <a class="nav-link" href="sampleview.html">Sampleview</a>
+          <a class="nav-link" href="">sampleview</a>
       </li>
       <li class="nav-item" >
-        <a class="nav-link" href="">Gallery</a>
+        <a class="nav-link" href="Gallery.html">Gallery</a>
     </li>
     <li class="nav-item" >
         <a class="nav-link" href="Contactus.html">Contactus</a>
@@ -42,37 +61,33 @@
   </ul>
   </div>
   </nav>
-    <div class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators" >
-            <li date-target="#b24"data-slide-to="0" >
-            </li>
-            <li data-target="#b24" data-slide-to="1"></li>
-            <li  data-target="#b24" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/b1.jpg" alt="" class="d-block w-100" height="700px" >
-            </div>
-            <div class="carousel-caption">
-            <h5>My Website</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nihil?</p>
-            </div>
-            <div class="carousel-item">
-                <img src="images/b2.jpg" alt=""class="d-block w-100"  height="700px" >
-            </div>
-            <div class="carousel-item ">
-                <img src="images/b3.jpeg" alt="" class="d-block w-100"  height="700px" >
-            </div>
-        </div>
+    <div class="m2 jumbotron">
+    <h3 class="text-primary"> ORGANIC Products</h3>
+    <P class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non <span class="text-capitalize"> eius incidunt</span> quas repudiandae fuga aliquam animi voluptatibus porro id?</P>
+    <button class="btn btn-success">READ MORE</button>
+    <button class="btn btn-outline-light text-success">login</button>
+</div>
+<div class=" jumbotron text-success">
+    <img src="images/m5.jpg" alt="image1">
+    <div>
+     <img src="images/m3.jpg" alt="image1">
     </div>
-<a class="carousel-control-prev" href="#b24" data-slide="prev">
-    <span class="carousel-control-prev-icon" ></span>
+<h2>BATCH24</h2>
+<P>WMB MISSION</P>
+</div>
+    <div class="item border w-50 bg-primary">
+        BOX1
+    </div>
+    <div class="item border w-50 bg-danger">
+        BOX2
+    </div>
+    <div class="item border w-50 bg-success">
+        BOX3
+    </div>
+    <div class="item border w-50 bg-info">
+        BOX4
+    </div>
 
-</a>
-<a class="carousel-control-next" href="#b24" data-slide="next">
-    <span class="carousel-control-next-icon" ></span>
-
-</a>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

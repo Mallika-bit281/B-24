@@ -10,80 +10,180 @@
 
     <title>Hello, world!</title>
     <style>
-        .item{
-            height: 50px;
-            width: 250px;
-            margin: 5px;
-        }
-        .btn{
-            border-width:4px;
-        }
-        .img{
-            background-image: url("images/m5.jpg"),url("images/m2.jpg");
-            background-position:left,right; 
-            background-size: 400px;
-            background-repeat: no-repeat;
-            margin-left:500px;
-            /* width: 400px; */
-            /* height: 300px; */
-        }
-        .m2{
-            background: url("images/m5.jpg"),url("images/m2.jpg");
-            background-position: left,right;
-            background-size: 900px,600px;
-            background-repeat: no-repeat;
-        }
+      .m1{
+        border: none;
+      }
     </style>
   </head>
-  <body class="bg-dark">
+  <body>
     <nav class="navbar-expand-sm navbar-light bg-warning" >
-        <button class="navbar-toggler" type="button" dat-toggle="collapse" data-target="#b23" >
-            <span  class="navbar-toggler-icon"></span>
-  
-        </button>
-          <div class="collapse navbar-collapse " id="b23" >
-        <ul class="nav">
-      <li class="nav-item" >
-          <a  class="nav-link" href="Index.html">Home</a>
-      </li>
-      <li class="nav-item" >
-          <a class="nav-link" href="Aboutus.html">Aboutus</a>
-      </li>
-      <li class="nav-item" >
-          <a class="nav-link" href="">Contactus</a>
-      </li>
-      <li class="nav-item" >
-        <a class="nav-link" href="Gallery.html">Gallery</a>
+      <button class="navbar-toggler" type="button" dat-toggle="collapse" data-target="#b23" >
+          <span  class="navbar-toggler-icon"></span>
+
+      </button>
+        <div class="collapse navbar-collapse " id="b23" >
+      <ul class="nav">
+    <li class="nav-item" >
+        <a  class="nav-link" href="Index.html">Home</a>
     </li>
-  </ul>
-  </div>
-  </nav>
-    <div class="m2 jumbotron">
-    <h3 class="text-primary"> ORGANIC Products</h3>
-    <P class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non <span class="text-capitalize"> eius incidunt</span> quas repudiandae fuga aliquam animi voluptatibus porro id?</P>
-    <button class="btn btn-success">READ MORE</button>
-    <button class="btn btn-outline-light text-success">login</button>
+    <li class="nav-item" >
+        <a class="nav-link" href="Aboutus.html">Aboutus</a>
+    </li>
+    <li class="nav-item" >
+        <a class="nav-link" href="sampleview.html">sampleview</a>
+    </li>
+    <li class="nav-item" >
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+  </li>
+  <li class="nav-item" >
+      <a class="nav-link" href="">Contactus</a>
+  </li>
+</ul>
 </div>
-<div class=" jumbotron text-success">
-    <img src="images/m5.jpg" alt="image1">
+</nav>
+    <div class="container m-3 p-5">
+        <div class="row">
+            <div class="col">
+                <div class="card w-100 m1">
+                   <img src="images/b1.jpg" alt="" width="200px" class="card-img-top m-5" style=" margin: 50px; border-radius:50%; height: 200px; width:200px;">
+                   <div class="card-body">
+                   <div class="card-title">
+                   <ul>CARD1</ul>
+                    </div>
+                    <center>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore reprehenderit quos nobis, vel deserunt quidem sed nesciunt nihil autem adipisci.</p>
+                  </center> 
+                  </div>
+                </div>
+             </div>
+            <!-- 2nd column -->
+            <div class="col">
+                <div class="card w-100 m1">
+                    <img src="images/b2.jpg" alt="" width="200px" class="card-img-top m-5" style=" margin: 50px; border-radius:50%; height: 200px; width:200px;">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <ul>CARD2</ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque rerum ipsa recusandae distinctio officiis, accusantium vel tempora earum voluptatibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- 3rd column -->
+             <div class="col">
+              <div class="card  w-100 m1">
+                <img src="images/b3.jpeg" alt="" width="150px" class="card-img-top m-5" style="  margin: 50px; border-radius: 50%; height: 200px; width:200px;">
+                <div class="card-body">
+                  <div class="card-title">
+                    <ul>card3</ul>
+                    <!-- <center> -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem praesentium iure deserunt perspiciatis similique atque ex reprehenderit iusto quam dolore!</p>
+                  <!-- </center> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <h1>NATURE</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas praesentium, eligendi voluptatem repudiandae exercitationem ad et minima debitis in cumque accusantium reprehenderit iusto. Omnis harum reiciendis, corporis tenetur doloremque sapiente nemo magnam est cumque adipisci consequuntur! Fugiat, labore dolore!</p>
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">ADDRESS</h5>
+      <div>
+        Twitter, Inc.
+    </div>
+        <div>
+        1355 Market St, Suite 900
+    </div>
+        <div>
+         San Francisco, CA 94103
+        </div>
     <div>
-     <img src="images/m3.jpg" alt="image1">
+        P: (123) 456-7890
+      </div>
+              
+            </div>
+            <!-- <div>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+
+            </div> -->
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Company</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Home</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">About Us</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-white">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Gallery</a>
+                  </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Information</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Sing up</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Users</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Followers</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-white">Feedback</a>
+                  </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <div>
+        </div>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+
     </div>
-<h2>BATCH24</h2>
-<P>WMB MISSION</P>
-</div>
-    <div class="item border w-50 bg-primary">
-        BOX1
-    </div>
-    <div class="item border w-50 bg-danger">
-        BOX2
-    </div>
-    <div class="item border w-50 bg-success">
-        BOX3
-    </div>
-    <div class="item border w-50 bg-info">
-        BOX4
-    </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2020 Copyright:
+          <a class="text-white" href="">Mallika Website.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
